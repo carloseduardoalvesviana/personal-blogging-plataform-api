@@ -10,6 +10,7 @@ O projeto utiliza uma stack moderna e eficiente:
 -   **[Fastify](https://www.fastify.io/)**: Framework web extremamente rápido e com baixo overhead.
 -   **[TypeScript](https://www.typescriptlang.org/)**: Superset do JavaScript que adiciona tipagem estática.
 -   **[TSX](https://github.com/privatenumber/tsx)**: Executor de TypeScript (sucessor do ts-node) para rodar o projeto em desenvolvimento.
+-   **[Tsup](https://tsup.egoist.dev/)**: Ferramenta moderna de bundling para projetos Node.js e TypeScript.
 -   **[Biome](https://biomejs.dev/)**: Ferramenta de alta performance para formatação e linting do código.
 
 ## 🏗 Arquitetura
