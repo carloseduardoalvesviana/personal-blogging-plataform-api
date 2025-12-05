@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES2022",
+    "moduleResolution": "bundler", // <— o mais recomendado hoje
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowJs": false,
+
+    // COMPATÍVEL COM TSUP
+    "noEmit": true, // <— tsup cuida do emit
+    "isolatedModules": true,
+
+    // IMPORTANTE: remover
+    // "allowImportingTsExtensions": false
+  },
+  "include": ["src"]
+}

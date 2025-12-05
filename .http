@@ -1,0 +1,30 @@
+### Create a new article
+POST http://localhost:3000/articles
+Content-Type: application/json
+
+{
+  "title": "Introduction Nodejs",
+  "content": "This nodejs is a plataform to run javascript",
+  "author": "john doe",
+  "tags": ["node", "javascript"]
+}
+
+### List all articles
+GET http://localhost:3000/articles
+
+### Get a specific article by ID
+GET http://localhost:3000/articles/8a9253d6-70ac-446a-a316-1e80e762f561
+
+### Update an existing article by ID
+PUT http://localhost:3000/articles/8a9253d6-70ac-446a-a316-1e80e762f561
+Content-Type: application/json
+
+{
+  "title": "Introduction Nodejs update",
+  "content": "This nodejs is a plataform to run javascript, update",
+  "author": "john doe",
+  "tags": ["node", "javascript", "update"]
+}
+
+### Delete article by ID
+DELETE http://localhost:3000/articles/8a9253d6-70ac-446a-a316-1e80e762f561
